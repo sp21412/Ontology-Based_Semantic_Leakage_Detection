@@ -37,4 +37,4 @@ for example in examples:
 df = pd.DataFrame(results)
 df.to_csv("flagged_cot_steps.csv", index=False)
 
-print("✅ Ontology check complete. Results saved to flagged_cot_steps.csv")
+print("Ontology check complete. Results saved to flagged_cot_steps.csv")
