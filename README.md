@@ -1,13 +1,13 @@
 # README.md content for Ontology-Based CoT Step Validator
 
-# 🧠 Ontology-Based CoT Step Validator (Prototype)
+# Ontology-Based CoT Step Validator (Prototype)
 
 # This is an early-stage prototype pipeline designed to explore step-level validation of 
 # Chain-of-Thought (CoT) reasoning in language model outputs. 
 # The goal is to identify semantic leakage—off-topic or invalid reasoning steps—by using 
 # a combination of lexical resources like WordNet and linguistic processing tools like spaCy.
 
-# ⚠️ This version does NOT use formal ontologies like ConceptNet, UMLS, or constraint logic.
+# This version does NOT use formal ontologies like ConceptNet, UMLS, or constraint logic.
 # It also lacks structured concept matching or graph reasoning. 
 # It is an initial proof-of-concept.
 
@@ -35,7 +35,7 @@
 # - Outputs a CSV file flagged_cot_steps.csv summarizing flagged reasoning steps and their unknown tokens.
 
 # -----------------------------------------------------
-# 📁 Output
+# Output
 # -----------------------------------------------------
 
 # flagged_cot_steps.csv
@@ -46,7 +46,7 @@
 #   - Optional human drift labels (if present)
 
 # -----------------------------------------------------
-# ✅ Requirements
+# Requirements
 # -----------------------------------------------------
 
 # Install the following dependencies:
@@ -56,7 +56,7 @@
 # python -m spacy download en_core_web_sm
 
 # -----------------------------------------------------
-# ⚠️ Known Limitations
+# Known Limitations
 # -----------------------------------------------------
 
 # - No structured ontology mapping: Only WordNet is used, and only as a basic lexical checker.
@@ -65,7 +65,7 @@
 # - No real semantic coherence check — this is closer to a vocabulary filter.
 
 # -----------------------------------------------------
-# 🚀 Future Improvements
+# Future Improvements
 # -----------------------------------------------------
 
 # - Replace WordNet with richer ontologies (ConceptNet, UMLS, etc.).
