@@ -11,5 +11,5 @@ with open(filename, "r", encoding="utf-8") as f:
         dataset.append(json.loads(line.strip()))
 
 # Step 3: Print the first example
-print("🔍 First Example:")
+print("First Example:")
 print(json.dumps(dataset[0], indent=2))
